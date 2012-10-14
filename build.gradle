@@ -1,0 +1,10 @@
+repositories {
+    mavenCentral()
+    mavenLocal()
+    mavenRepo url: [
+        "http://download.jubat.us/maven"
+    ]
+}
+
+dependencies {
+}
