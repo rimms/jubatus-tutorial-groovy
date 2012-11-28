@@ -1,8 +1,8 @@
 jubatus-tutorial-groovy
 =======================
 
-- I ported `jubatus-tutorial-python <https://github.com/jubatus/jubatus-tutorial-python>_` to groovy.
-- See `Tutorial on Jubatus's official website <http://jubat.us/en/tutorial.html>_`
+- I ported `jubatus-tutorial-python <https://github.com/jubatus/jubatus-tutorial-python>`_ to groovy.
+- See `Tutorial on Jubatus's official website <http://jubat.us/en/tutorial.html>`_ .
 
 Requirements
 ------------
