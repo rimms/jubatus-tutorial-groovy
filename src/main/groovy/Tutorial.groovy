@@ -74,3 +74,6 @@ def client = new ClassifierClient(config.host, config.port, config.timeout)
 set_config(config, client)
 train(config, client)
 analyze(config, client)
+
+System.exit(0)
+
