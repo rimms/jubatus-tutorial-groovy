@@ -1,14 +1,5 @@
 import us.jubat.classifier.*
 
-// set_config
-def set_config(config, client) {
-  def fv_config = new ConfigData();
-  fv_config.method = config.ml_config.method
-  fv_config.config = config.ml_config.fv_config
-
-  client.set_config(config.name, fv_config)
-}
-
 // train
 def train(config, client) {
   def train_file = new File('train.dat')
@@ -57,11 +48,11 @@ def analyze(config, client) {
 }
 
 def get_most_likely(answers) {
-  def answer_prob = 0.0
+  def answer_score = 0.0
   def answer_label = ''
   answers[0].each { answer ->
-    if (answer_prob < answer.prob) {
-      answer_prob = answer.prob
+    if (answer_score < answer.score) {
+      answer_score = answer.score
       answer_label = answer.label
     }
   }
@@ -71,9 +62,7 @@ def get_most_likely(answers) {
 def config = new ConfigSlurper().parse(new File('config.groovy').toURL())
 def client = new ClassifierClient(config.host, config.port, config.timeout)
 
-set_config(config, client)
 train(config, client)
 analyze(config, client)
 
 System.exit(0)
-

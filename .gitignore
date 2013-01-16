@@ -1,3 +1,4 @@
 build
+.gradle
 *.class
 20news-bydate*

@@ -6,7 +6,7 @@ jubatus-tutorial-groovy
 
 Requirements
 ------------
-- Jubatus 0.3.4
+- Jubatus 0.4.0
 - Open Java Development Kit 6 update 24
 - Gradle 1.2
 
@@ -19,6 +19,6 @@ How to Use
   $ cd jubatus-tutorial-groovy
   $ wget http://people.csail.mit.edu/jrennie/20Newsgroups/20news-bydate.tar.gz
   $ tar xvzf 20news-bydate.tar.gz
-  $ jubaclassifier &
+  $ jubaclassifier --configpath config.json &
   $ gradle run
 

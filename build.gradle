@@ -11,5 +11,5 @@ repositories {
 
 dependencies {
     groovy group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.0.5'
-    compile group: 'us.jubat', name: 'jubatus', version: '0.3.2'
+    compile group: 'us.jubat', name: 'jubatus', version: '0.4.0'
 }
