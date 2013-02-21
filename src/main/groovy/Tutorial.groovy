@@ -59,7 +59,8 @@ def get_most_likely(answers) {
   return answer_label
 }
 
-def config = new ConfigSlurper().parse(new File('config.groovy').toURL())
+def url = ClassLoader.getSystemResource('config.groovy')
+def config = new ConfigSlurper().parse(url)
 def client = new ClassifierClient(config.host, config.port, config.timeout)
 
 train(config, client)
