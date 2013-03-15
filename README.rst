@@ -7,7 +7,7 @@ jubatus-tutorial-groovy
 
 Requirements
 ------------
-- Jubatus 0.4.0 or later
+- Jubatus 0.4.2 or later
 - Open Java Development Kit 6 update 27
 - Gradle 1.4
 
