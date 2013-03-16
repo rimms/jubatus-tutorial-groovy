@@ -3,7 +3,7 @@ jubatus-tutorial-groovy
 
 - I ported `jubatus-tutorial-python <https://github.com/jubatus/jubatus-tutorial-python>`_ to groovy.
 - See `Tutorial on Jubatus's official website <http://jubat.us/en/tutorial.html>`_ .
-- This tutorial is using `Jubatus Java Client 0.4.1 <http://download.jubat.us/maven/us/jubat/jubatus/0.4.1/>`_ .
+- This tutorial is using `Jubatus Java Client 0.4.2 <http://download.jubat.us/maven/us/jubat/jubatus/0.4.2/>`_ .
 
 Requirements
 ------------
