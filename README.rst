@@ -3,13 +3,12 @@ jubatus-tutorial-groovy
 
 - I ported `jubatus-tutorial-python <https://github.com/jubatus/jubatus-tutorial-python>`_ to groovy.
 - See `Tutorial on Jubatus's official website <http://jubat.us/en/tutorial.html>`_ .
-- This tutorial is using `Jubatus Java Client 0.4.2 <http://download.jubat.us/maven/us/jubat/jubatus/0.4.2/>`_ .
+- This tutorial is using `Jubatus Java Client 0.5.x <http://download.jubat.us/maven/us/jubat/jubatus/>`_ .
 
 Requirements
 ------------
-- Jubatus 0.4.2 or later
-- Open Java Development Kit 6 update 27
-- Gradle 1.4
+- Jubatus 0.5.0 or later
+- Gradle 1.11
 
 How to Use
 ----------
